@@ -221,7 +221,7 @@ html {
     margin-top: 46px;
     /* bằng với chiều cao header */
     padding-top: 50%;
-    background: url('/assets/img/slider/slider1.jpg') top center / cover no-repeat;
+    background: url('/assets/img/slider/slider3.png') top center / cover no-repeat;
 }
 
 #slider .text-content {
