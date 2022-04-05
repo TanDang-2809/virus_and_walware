@@ -8,9 +8,13 @@
 
 /* MOBILE */
 @media (max-width: 740px) {
+    .s-full-with,
     .s-col-full {
-        width: 100%;
+        width: 100% !important;
     }
+    .s-mt-8 {
+        margin-top: 8px !important;
+    } 
     #header {
         overflow: hidden;
     }
@@ -53,8 +57,11 @@
     #content .member-img {
         width: 60%;
     }
-    .place-img {
+    /* .place-img {
         height: auto;
+    } */
+    .contact-form {
+        margin-top: 16px;
     }
 }
 
