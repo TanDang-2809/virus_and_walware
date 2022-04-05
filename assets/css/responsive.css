@@ -1,0 +1,65 @@
+/* BREAK POINT : điểm ngắt*/
+/* min-width > = */
+/* PC */
+@media (min-width: 1024px) {}
+
+/* TABLEB */
+@media (min-width: 724px) and (max-width: 1024px) {}
+
+/* MOBILE */
+@media (max-width: 740px) {
+    .s-col-full {
+        width: 100%;
+    }
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        /* giá trị mặc định */
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+    .place-img {
+        height: auto;
+    }
+}
+
+
+/* PC : >= 1024px 
+        TABLET : >= 740px & < 1024px
+         MOBILE : < 740px
+          */
