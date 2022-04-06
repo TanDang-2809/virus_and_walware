@@ -68,6 +68,7 @@ html {
 .mt-32 {
     margin-top: 32px !important;
 }
+
 .row {
     margin-left: -8px;
     margin-right: -8px;
@@ -387,7 +388,7 @@ html {
 }
 
 #footer .socials-list {
-    font-size: 24px;
+    font-size: 48px;
 
 }
 
@@ -542,13 +543,21 @@ html {
     display: inline-block;
 }
 
+.contact-info a {
+    color: #101aef;
+    opacity: 0.8;
+}
+
+.contact-info a:hover {
+    opacity: 1;
+}
+
 .contact-form {
     font-size: 15px;
 }
 
 .contact-form .form-control {
     padding: 8px;
-    height: 40px;
     border: 1px solid #ccc;
     width: 100%;
     /* outline: none; */
