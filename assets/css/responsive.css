@@ -12,14 +12,13 @@
     #nav .subnav a {
         padding: 5px 12px;
     }
-
     .contact-form .form-control {
         padding: 15px;
         font-size: 16px;
     }
 
     .contact-info {
-        line-height: 2.1;
+        line-height: 2.2;
     }
     .contact-submit-btn {
         font-size: 16px;
@@ -91,7 +90,9 @@
         color: #fff;
         padding: 5px 41px;
     }
-
+    .place-img {
+        height: auto;
+    }
     #content .member-img {
         width: 60%;
     }
