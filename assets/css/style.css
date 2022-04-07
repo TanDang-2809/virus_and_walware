@@ -48,6 +48,9 @@ html {
     margin-top: 15px;
     border: none;
     display: inline-block;
+    appearance: none;/* thích ứng trên điện thoại ipab iphone */
+    -webkit-appearance: none;
+    /* thích ứng trên điện thoại iphone */
 }
 
 .btn:hover {
