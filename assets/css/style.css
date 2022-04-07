@@ -225,7 +225,7 @@ html {
     margin-top: 46px;
     /* bằng với chiều cao header */
     padding-top: 50%;
-    background: url(https://cdn.helpsystems.com/styles/crop_general/storage-api-public/pt-blog-malware-virus-anti-malware-antivirus-differences-banner-01_0.png?itok=vzLipffP) top center / cover no-repeat;
+    background: url('../img/slider/slider1.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -247,6 +247,8 @@ html {
 #slider .text-description {
     font-size: 15px;
     margin-top: 20px;
+    text-shadow: 0 0 1px #000;
+    /* đổ bóng cho chữ để dễ nhìn hơn */
 }
 
 #content {}
