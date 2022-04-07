@@ -1,10 +1,10 @@
 /* BREAK POINT : điểm ngắt*/
 /* min-width > = */
 /* PC */
-@media (min-width: 1024px) {}
+@media (min-width: 64em) {}
 
 /* MOBILE and TABLEB*/
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
     .btn {
         padding: 15px 16px;
     }
@@ -34,14 +34,11 @@
 }
 
 /* TABLEB */
-@media (min-width: 724px) and (max-width: 1023px) {
-    /* .contact-info {
-        line-height: 2.1;
-    } */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
 }
 
 /* MOBILE */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
 
     .s-full-with,
     .s-col-full {
